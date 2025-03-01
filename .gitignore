@@ -1,0 +1,33 @@
+# Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate.*
+*.tfbackup
+
+# Terraform plan files
+*.tfplan
+
+# Crash logs
+crash.log
+crash.*.log
+
+# Terraform lock file
+.terraform.lock.hcl
+
+# Ignore Terraform providers & modules
+.terraform/
+
+# Ignore override files (local custom settings)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore personal variables files (DO NOT commit sensitive credentials)
+*.auto.tfvars
+
+# Ignore any other temporary files
+*.log
+*.bak
+.DS_Store
+Thumbs.db
